@@ -1,12 +1,13 @@
+import Advice from './components/advice/Advice';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
-	return (
-		<>
-			<GlobalStyles />
-			<h1>React</h1>
-		</>
-	);
+  return (
+    <>
+      <GlobalStyles />
+      <Advice />
+    </>
+  );
 };
 
 export default App;
